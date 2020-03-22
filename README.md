@@ -12,9 +12,10 @@ Our HR Manager wants to create a listing platform. The platform requirements are
 	- As an HR Manager, I should create new job listings.
 	- As an HR Manager, I should list the job listings on a listing page.
 	- There should be show details link for each job listing on listing page. As an HR Manager, I should see the details of a job listing by clicking the link.
-	- There should be delete job listing link for each job listing on listing page. As an HR Manager, I should delete a job listing by clicking the link. Deleted job listings won't be seen by anyone.
-	`Everything should be persisted on database on this step.<br>
-	https://spring.io/guides/gs/accessing-data-jpa/`
+	- There should be delete job listing link for each job listing on listing page. As an HR Manager, I should delete a job listing by clicking the link. Deleted job listings won't be seen by anyone.<br>
+	
+	`Everything should be persisted on database on this step.`<br>
+	`https://spring.io/guides/gs/accessing-data-jpa/`
 
 
 ## Step 2: Add Authenticaton
