@@ -1,31 +1,30 @@
 # Simple HR Application (Spring Boot)
 
-In this assignment, you are expected to develop a simple job application platform by using Spring Boot. Application has 2 user roles as HR Manager and
-Applicant. HR Managers can manage all job listings and see applicant data. You are required to implement these steps:<br>
-
+In this assignment, you are expected to develop a simple job application platform by using Spring Boot. Application has 2 user roles as HR Manager and Applicant. HR Managers can manage all job listings and see applicant data. You are required to implement these steps:<br>
+<br>
 
 ## Step 1: Job Listing Management Module
 
 Our HR Manager wants to create a listing platform. The platform requirements are,
 
-* Job listings should have attributes "Job Title", "Job Description", "Number of people to hire", "Last application date".
-* As an HR Manager, I should create new job listings.
-* As an HR Manager, I should list the job listings on a listing page.
-* There should be show details link for each job listing on listing page. As an HR Manager, I should see the details of a job listing by clicking the link.
-* There should be delete job listing link for each job listing on listing page. As an HR Manager, I should delete a job listing by clicking the link. Deleted job listings won't be seen by anyone.<br>
+- Job listings should have attributes "Job Title", "Job Description", "Number of people to hire", "Last application date".
+- As an HR Manager, I should create new job listings.
+- As an HR Manager, I should list the job listings on a listing page.
+- There should be show details link for each job listing on listing page. As an HR Manager, I should see the details of a job listing by clicking the link.
+- There should be delete job listing link for each job listing on listing page. As an HR Manager, I should delete a job listing by clicking the link. Deleted job listings won't be seen by anyone.<br>
 	
-`Everything should be persisted on database on this step.`
-https://spring.io/guides/gs/accessing-data-jpa/
+`Everything should be persisted on database on this step.`<br>
+* https://spring.io/guides/gs/accessing-data-jpa/
 
 
 ## Step 2: Add Authenticaton
 
 We created a job listing creation app but everybody can create a job listing. Add an authentication mechanism and then only hr manager should manage job listings.
 
-	- HR Manager should login with email and password. You can create an account manually, you don't have to implement a sign-up functionality.
+- HR Manager should login with email and password. You can create an account manually, you don't have to implement a sign-up functionality.
 
-`You can use Spring Security.<br>`
-https://spring.io/guides/gs/securing-web/
+`You can use Spring Security.`<br>
+`* https://spring.io/guides/gs/securing-web/`
 
 
 ## Step 3: Job Application Page
