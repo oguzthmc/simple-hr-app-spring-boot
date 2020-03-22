@@ -24,7 +24,7 @@ We created a job listing creation app but everybody can create a job listing. Ad
 - HR Manager should login with email and password. You can create an account manually, you don't have to implement a sign-up functionality.
 
 `You can use Spring Security.`<br>
-`* https://spring.io/guides/gs/securing-web/`
+` https://spring.io/guides/gs/securing-web/ `
 
 
 ## Step 3: Job Application Page
