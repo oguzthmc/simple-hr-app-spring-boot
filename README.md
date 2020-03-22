@@ -14,7 +14,7 @@ Our HR Manager wants to create a listing platform. The platform requirements are
 	- There should be show details link for each job listing on listing page. As an HR Manager, I should see the details of a job listing by clicking the link.
 	- There should be delete job listing link for each job listing on listing page. As an HR Manager, I should delete a job listing by clicking the link. Deleted job listings won't be seen by anyone.<br>
 	
-```Everything should be persisted on database on this step.```<br>
+`Everything should be persisted on database on this step.`
 https://spring.io/guides/gs/accessing-data-jpa/
 
 
@@ -24,8 +24,8 @@ We created a job listing creation app but everybody can create a job listing. Ad
 
 	- HR Manager should login with email and password. You can create an account manually, you don't have to implement a sign-up functionality.
 
-	`You can use Spring Security.<br>
-(https://spring.io/guides/gs/securing-web/)`
+`You can use Spring Security.<br>`
+https://spring.io/guides/gs/securing-web/
 
 
 ## Step 3: Job Application Page
