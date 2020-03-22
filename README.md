@@ -15,7 +15,7 @@ Our HR Manager wants to create a listing platform. The platform requirements are
 	- There should be delete job listing link for each job listing on listing page. As an HR Manager, I should delete a job listing by clicking the link. Deleted job listings won't be seen by anyone.<br>
 	
 ```Everything should be persisted on database on this step.```
-https://spring.io/guides/gs/accessing-data-jpa/
+`(https://spring.io/guides/gs/accessing-data-jpa/)`
 
 
 ## Step 2: Add Authenticaton
