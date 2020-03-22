@@ -1,5 +1,5 @@
 # Simple HR Application (Spring Boot)
-<hr>
+
 
 In this assignment, you are expected to develop a simple job application platform by using Spring Boot. Application has 2 user roles as HR Manager and Applicant. HR Managers can manage all job listings and see applicant data. You are required to implement these steps:<br>
 <br>
