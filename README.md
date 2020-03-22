@@ -1,4 +1,4 @@
-# Simple HR Application (Spring Boot)
+# Simple HR Application (Spring Boot) <hr>
 
 
 In this assignment, you are expected to develop a simple job application platform by using Spring Boot. Application has 2 user roles as HR Manager and Applicant. HR Managers can manage all job listings and see applicant data. You are required to implement these steps:<br>
@@ -16,7 +16,7 @@ Our HR Manager wants to create a listing platform. The platform requirements are
 	
 `Everything should be persisted on database on this step.`<br>
 * https://spring.io/guides/gs/accessing-data-jpa/
-
+<br>
 
 ## Step 2: Add Authenticaton
 
@@ -26,7 +26,7 @@ We created a job listing creation app but everybody can create a job listing. Ad
 
 `You can use Spring Security.`<br>
 * https://spring.io/guides/gs/securing-web/
-
+<br>
 
 ## Step 3: Job Application Page
 
@@ -36,7 +36,7 @@ There should be a page for other people to apply to the jobs which will be creat
 - Applicants can see the listings and click for the detail of a listing.
 - In job listing detail page, there should be a job application form.
 - Job application form should get the information "Name", "Email", "Phone", "Address", "Thoughts on Job", "Resume" (as a file) from the applicant and save these information to database.
-
+<br>
 
 ## Step 4: Application Listing Module
 
@@ -45,7 +45,7 @@ We've got some applicants and hr manager want to see the list of all job applica
 - Create a job applications listing page. As an HR Manager, I should see all applications.
 - All job applications should have a detail page. As an HR Manager, I should see the detail page by clicking show detail link.
 - Only HR Manager should see the listing page. He/she should login to the system in order to see this page.
-
+<br>
 
 ### Bonus: User Friendly UI
 
@@ -53,12 +53,12 @@ You can use one of following UI libraries to make the application good looking a
 
 - http://semantic-ui.com/
 - http://getbootstrap.com
-
+<br>
 
 ### Bonus 2: Test at least One Functionality
 
 Write at least one unit test to cover one main functionalities. For example test if a job listing is being created by an unauthenticated user or test if an empty application form is saved.
-
+<br>
 
 ### Resources
 
